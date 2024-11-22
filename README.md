@@ -1,6 +1,6 @@
 # Patched qed driver for linux
 
-**Current kernel version: 6.1**
+**Current kernel version: 6.8**
 
 ## Installation
 
@@ -15,10 +15,10 @@ apt install build-essential linux-headers-amd64
 
 ### Install driver
 
-1. Clone this git repository into `/usr/src/qed-6.1`
-2. Add driver to dkms: `dkms add -m qed -v 6.1`
-3. Build driver for current kernel: `dkms build -m qed -v 6.1`
-4. Install driver for current kernel: `dkms install -m qed -v 6.1`
+1. Clone this git repository into `/usr/src/qed-6.8`
+2. Add driver to dkms: `dkms add -m qed -v 6.8`
+3. Build driver for current kernel: `dkms build -m qed -v 6.8`
+4. Install driver for current kernel: `dkms install -m qed -v 6.8`
 
 ### Reload the driver if replacement needed
 
