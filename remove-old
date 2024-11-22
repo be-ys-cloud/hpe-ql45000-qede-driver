@@ -1,0 +1,3 @@
+#!/bin/sh
+set -eux
+rm -vf "/lib/modules/${kernelver}/kernel/drivers/net/ethernet/qlogic/qed/qed.ko"
